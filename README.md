@@ -48,16 +48,11 @@ nano filename.extension
 This editor is preinstalled on most Linux, macOs and Unix based HPC systems. It is the simplest choice, in particular if no GUI is avaiable.
 
 ## Linux command line tutorials:
-- Very first and very short introduction. Only gives a simple overview without going into details:
-  
-https://www.youtube.com/watch?v=MDrc-LaW-vc
+- Very first and very short introduction. Only gives a simple overview without going into details:<br>
+  https://www.youtube.com/watch?v=MDrc-LaW-vc
 
-- A comprehensive Linux command line tutorial
-
+- A comprehensive Linux command line tutorial<br>
 https://www.youtube.com/watch?v=16d2lHc0Pe8
 
-Please follow the tutorial and try all commands yourself. Just watching someone else doing it is not sufficient to understand the content.
-
-- Learn 50 most important commands in 15 minutes
-  
+- Learn 50 most important commands in 15 minutes<br>
 https://www.youtube.com/watch?v=nzjkbQNmXAE
