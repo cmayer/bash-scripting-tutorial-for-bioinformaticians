@@ -1,9 +1,9 @@
 # Bash Scripting Tutorial for beginners who want to use bash in bioinformatics
 
-Why another bash scripting tutorial? In fact there are hundreds of tutorial out there. Unfortunately, I did find a single tutorial I liked.
-- Some start with creating first files using the vi or vim editor. This is an editor for professionals not for beginners. This approach makes things unnecessarly frustrating for beginners and it is not suited for beginners in bioinformatics.
+Why another bash scripting tutorial? In fact there are hundreds of tutorial out there. Unfortunately, I did not find a single tutorial I liked.
+- Some start by creating a first files using the vi or vim editor. This is an editor for professionals not for beginners. This approach makes things unnecessarly frustrating for beginners. I think it is not suited for beginners in bioinformatics.
 - Many tutorials want to show you everything you can do with bash. We do not need to know everything. We just want to automate a few tasks.
-- Many tutorials use examples from computer science or system adminitstration, e.g. by showing you the power of linux commands by writing scripts that can filter the system logs for you or something similar. Hurray, no bioinformatican is interested in this.
+- Many tutorials use examples from computer science or system adminitstration, e.g. by showing you the power of linux commands by writing scripts that allow you to filter the system logs or similar unmotivated tasks, most students will never ever need.
 
 # The goal of this tutorial
 
