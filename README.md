@@ -59,7 +59,10 @@ https://www.youtube.com/watch?v=nzjkbQNmXAE
 
 # Linux directory structure, absolute and relative paths
 
-Understanding the main directory structure as well as using paths is essential. 
+In this Chapter, the most essential commands are descrived, together with the typical directory structure of Linux operating systems. Furthermore, it is shown how one can refer to files and directories using absolute and relative paths.
+
+# List of the most important bash commmands
+
 
 
 
