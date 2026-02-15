@@ -55,7 +55,7 @@ https://www.youtube.com/watch?v=nzjkbQNmXAE
 
 # Linux directory structure, absolute and relative paths
 
-In this Chapter, the most essential commands are descrived, together with the typical directory structure of Linux operating systems. Furthermore, it is shown how one can refer to files and directories using absolute and relative paths.
+[In this Chapter you will learn how a tyipical directory structure of Linux operating systems looks like and how you can navigate in this on the command line. Furthermore, it is shown how one can refer to files and directories using absolute and relative paths.](https://github.com/cmayer/bash-scripting-tutorial-for-bioinformaticians/blob/main/Linux-directory-strucute-and-paths.md)
 
 
 
