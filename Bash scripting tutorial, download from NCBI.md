@@ -39,13 +39,12 @@ echo "Running the bash script: bash-tutorial-download-from-NCBI.sh"
 ## Elements found in this simple bash script
 
 ### Shebang
-All bash scripts should start with the so-called shebang, which you see in the first line.
+All bash scripts should start with (beginnig of the first line) the so-called shebang, which you see in the first line.
 Formally, a bash script is just a text file. The shebang specifies the program that shall be used to interpret the commands.
-In our case, the kernel finds `"/bin/bash"` and starts a new instance of the bash shell to interpret our script.
-to interpret the current file, i.e. it starts another bash process.
+In our case, the kernel finds `"/bin/bash"` and starts a new instance of the bash shell to interpret the current file, i.e. it starts another bash process.
 
 ### Comments
-If a line contains a hash `#` character all text following the hash is a comment and it is not interpreted as commands.
+If a line contains a hash `#` character, all text following the hash is a comment and it is not interpreted as commands.
 Exceptions:
 - If the kernel sees that a file starts with the shebang, it uses the specified program as interpreter.
 - If the nash is found in quotes, it is not interpreted and it does not mark the start of a comment.
