@@ -20,8 +20,8 @@ Therefore, mastering the Unix command line and Bash shell is indispensable in bi
 
 ## How to get started:
 
-You will need a Unix-based system to practice using the command line. The following options exist:
-- Linux or macOS (both natively support Unix).
+To get hands-on with the command line, you’ll need a Unix-based system. Here are your options:
+- Linux or macOS both natively support the command line.
 - Windows users: Install a Linux partition alongside Windows or use Windows Subsystem for Linux (WSL). The latter is an option officially supported by  Microsoft’s for running a Linux environment on your Windows computer.
 
 ## Terminology
@@ -29,22 +29,21 @@ You will need a Unix-based system to practice using the command line. The follow
 - A **shell** is a program that interprets the commands you enter in the terminal and executes them.
 - The bash shell is the most widely used shell, but it is not the only shell you could use. Different shells can have different commands and input syntax. We will use the bash shell, since it is the default shell on most Linux distributions as well as on the Mac.
 
-# Using the Linux command line, introduciton outsourced to existing tutorials
-The main focus of this introduction will be to show you how to automate data retreaval and data analysis with bash scripts. Therefore we will outsource the quick introduciotn to Linux and using the command line to the following tutorials.
-
-## Replicate what is shown in the videos
-Unterstanding the usage of a scripting language requires to replicate what is shown in the videos. Open a terminal window and test all commands shown in the tutorials.
+# Next steps
+- get hold of a possibiltiy to pratice
+- as an first introduction I recommend a few videos
+- replicate what is shown in the videos. This is important for really understanding what you are doing. Open a terminal window and test all commands shown in the tutorials.
 
 ## Text editor
 For editing text files that are needed in the following tutorials, I recommend using the nano editor.
-
 ```
 nano filename.extension
 ```
-
-This editor is preinstalled on most Linux, macOs and Unix based HPC systems. It is the simplest choice, in particular if no GUI is avaiable.
+This editor is preinstalled on most Linux, macOs and Unix based HPC systems. It is the simplest choice, in particular if no GUI is avaiable and should be used for practicing.
 
 ## Linux command line tutorials:
+As a first introduction I recommend you to follow these videos:
+
 - Very first and very short introduction. Only gives a simple overview without going into details:<br>
   https://www.youtube.com/watch?v=MDrc-LaW-vc
 
@@ -57,6 +56,8 @@ https://www.youtube.com/watch?v=nzjkbQNmXAE
 # Linux directory structure, absolute and relative paths
 
 In this Chapter, the most essential commands are descrived, together with the typical directory structure of Linux operating systems. Furthermore, it is shown how one can refer to files and directories using absolute and relative paths.
+
+
 
 # List of the most important bash commmands
 
