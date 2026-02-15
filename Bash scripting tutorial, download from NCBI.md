@@ -53,7 +53,14 @@ Exceptions:
 Our bash script only contains a single `echo` command. All commands will be executed.
 
 ## Running our first bash script
-
+In order to be able to run our bash script we have to make it executable, i.e. we have to give it the permission to run independently. We do this with the `chmod`command:
+```
+chmod u+x bash-tutorial-download-from-NCBI.sh
+```
+Now we can start the bash script by typing:
+```
+./bash-tutorial-download-from-NCBI.sh
+```
 
 
 
