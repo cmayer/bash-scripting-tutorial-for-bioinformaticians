@@ -1,23 +1,20 @@
 # Introduction to the linux command line and bash-scripting for bioinformaticians
 
-This is a tutorial teaching students and beginners in bioinformatics how to use the linux command-line as well as how to write simple to intermediate bash scripts with the aim of automating tasks.
+This tutorial introduces bioinformatics students and beginners to the Linux command line and teaches them to write simple to moderately complex bash scripts for task automation.
 
 ## Why should I learn how to use Linux, the Linux command line and bash scripting?** 
 
-Using the Linux command line might seem to be a step backward in how we interact with the computer. But as soon as we work with very large datasets, maybe thousands of files each having a few megabyte of data or single files with a few gigabyte of text, we could verify that programs using a Graphical User Interface (GUI) will not be able to handle this amount of data. We would not view text files of the size of the human genome (3.2GB) in Word or store it as a docx file, nore would we open large tables with maybe a few million lines in Excel, or store them in the xlsx format. These programs stop working for considerably smaller files. 
-Furthermore, high-performance computing (HPC) environments, essential for many bioinformatics tasks, primarily run on Unix-like operating systems without GUI, and the majority of specialized bioinformatics software are command-line programs.
+Using the Linux command line may initially seem like a step backward in how we interact with computers. However, once we work with large datasets—such as thousands of files, each several megabytes in size, or single files containing several gigabytes of text—it becomes clear that graphical user interface (GUI) programs often fail to handle such data. For example, we wouldn’t open a text file the size of the human genome (3.2 GB) in Microsoft Word, nor would we store it as a .docx file. Similarly, we wouldn’t attempt to open large tabular datasets with millions of rows in Excel or save them as .xlsx files—these programs typically crash or become unresponsive with relatively small files.
+Moreover, high-performance computing (HPC) environments, which are essential for many bioinformatics workflows, run primarily on Unix-like operating systems without GUIs and the vast majority of specialized bioinformatics tools are also designed as command-line programs.
 
 Advantages of using the command line are:
-**Efficiency in Workflows:** Complex analyses can be seamlessly chained together by typing commands—eliminating the need for manual clicks and reducing human error. Commands are executed by specifying their names, options, and arguments in a structured sequence.
+**Efficiency of Workflows:** Complex analyses can be seamlessly chained together by typing commands, eliminating the need for manual clicks and reducing human error. Commands are executed by specifying their names, options, and arguments in a structured sequence.
 
 **Handling Large-Scale Data:**
 Bioinformatics datasets can range from gigabytes to terrabytes in size. The command line enables efficient processing of such datasets without memory constraints.
 
-**Automation:**
+**Automation and Reusablity**
 Analysing thousands to millions of input files, is far simpler and less error-prone when commands are explicitly written rather than selected via point-and-click. Scripts containing command sequences are reusable and serve as a verifiable record of your workflow.
-
-**Reusablity:** 
-Command-line scripts can be saved, shared, and reused, ensuring transparency and consistency in computational work. Once set up, workflows can be modified with little effort. 
 
 Therefore, mastering the Unix command line and Bash shell is indispensable in bioinformatics. 
 
