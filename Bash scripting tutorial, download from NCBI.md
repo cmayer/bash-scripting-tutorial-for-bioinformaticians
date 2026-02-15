@@ -37,7 +37,7 @@ echo "Running the bash script: bash-tutorial-download-from-NCBI.sh"
 ```
 
 This should print
-`Running the bash script: bash-tutorial-download-from-NCBI.sh`. 
+```Running the bash script: bash-tutorial-download-from-NCBI.sh```. 
 
 
 ## Elements found in this simple bash script
