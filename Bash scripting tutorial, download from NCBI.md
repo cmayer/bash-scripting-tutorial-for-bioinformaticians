@@ -61,16 +61,50 @@ Now we can start the bash script by typing:
 ```
 ./bash-tutorial-download-from-NCBI.sh
 ```
-
 This should print
-```Running the bash script: bash-tutorial-download-from-NCBI.sh```. 
+```
+Running the bash script: bash-tutorial-download-from-NCBI.sh
+``` 
+
+## Variables in bash script
+In all programming languages, variables are used to hold information between multiple commands. In bash, variables have alredy been introduced in the video on the interactive mode. For assinging a value to a bash variable we use the syntax:
+```
+variable=value
+```
+Bash does not allow unnecessary spaces, so there should be not spaces before and after the assignment operator `=`.
+We can get the value of a variable, by writing the `$`-symbol infront of it. 
+In our bash script we will introduce two variables holding the names of the output directory and a directory used for temporary files.
+Next we will create the two directories in our script.
+
+```bash
+#!/bin/bash    # The shebang
+# Bash scripting tutorial, part 1
+# Downloading mitochondrial genomes from NCBI
+
+echo "Running the bash script: bash-tutorial-download-from-NCBI.sh"
+
+# Defining variables
+OUTPUT_DIR="./anopheles_mito_genomes"
+TEMP_DIR="./temp"
+
+# Creating the directories:
+mkdir $OUTPUT_DIR
+mkdir $TEMP_DIR
+```
+
+Since our bash script already has the permission to be executed, we can run this directly with
+```
+./bash-tutorial-download-from-NCBI.sh
+```
+This command will now create the two directories. 
+
+
 
 
 
 ### ✅ Create output directories
 ```bash
-OUTPUT_DIR="./anopheles_mito_genomes"
-TEMP_DIR="./temp"
+
 ```
 
 ### ✅ Create them safely
