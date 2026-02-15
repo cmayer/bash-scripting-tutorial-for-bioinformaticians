@@ -62,6 +62,6 @@ In this Chapter you will learn how a tyipical directory structure of Linux opera
 
 # List of the most important bash commmands
 
-
+[Introduction to the most important bash commands.](https://github.com/cmayer/bash-scripting-tutorial-for-bioinformaticians/blob/main/Bash-command-reference.md)
 
 
