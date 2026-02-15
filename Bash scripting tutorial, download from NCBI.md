@@ -36,10 +36,6 @@ The file extension `.sh` is commonly used for bash scripts and we want to use th
 echo "Running the bash script: bash-tutorial-download-from-NCBI.sh"
 ```
 
-This should print
-```Running the bash script: bash-tutorial-download-from-NCBI.sh```. 
-
-
 ## Elements found in this simple bash script
 
 ### Shebang
@@ -65,6 +61,9 @@ Now we can start the bash script by typing:
 ```
 ./bash-tutorial-download-from-NCBI.sh
 ```
+
+This should print
+```Running the bash script: bash-tutorial-download-from-NCBI.sh```. 
 
 
 
