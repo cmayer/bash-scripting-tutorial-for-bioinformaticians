@@ -64,5 +64,5 @@ In this Chapter you will learn how a tyipical directory structure of Linux opera
 
 [Introduction to the most important bash commands.](https://github.com/cmayer/bash-scripting-tutorial-for-bioinformaticians/blob/main/Bash-command-reference.md)
 
-#[Introduction to bash scripting - Part 1](www.google.com)
+# Introduction to [bash scripting - Part 1](www.google.com)
 
