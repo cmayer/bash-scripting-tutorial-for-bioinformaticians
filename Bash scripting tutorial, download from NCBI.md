@@ -84,6 +84,7 @@ Next we will create the two directories in our script.
 #!/bin/bash    # The shebang
 # Bash scripting tutorial, part 1
 # Downloading mitochondrial genomes from NCBI
+# Implementation step 2
 
 echo "Running the bash script: bash-tutorial-download-from-NCBI.sh"
 
