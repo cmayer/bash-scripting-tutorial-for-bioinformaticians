@@ -22,6 +22,9 @@ Alongside of developing the script, the commands and syntax are explained.
 A bash script is a text file into which you write a sequence of bash commands in the order you want to execute them.
 While flow control statements such as **if** and **for** can also be used in interactive mode, they are typically used in bash scripts.
 
+
+# Step by step implementation of a bash script that downloads Anophlels mitochondrial genomes from NCBI
+
 Let us implement our first bash script. Open an editor such as nano, e.g. as follows:
 ```
 nano bash-tutorial-download-from-NCBI.sh
@@ -32,6 +35,7 @@ The file extension `.sh` is commonly used for bash scripts and we want to use th
 #!/bin/bash    # The shebang
 # Bash scripting tutorial, part 1
 # Downloading mitochondrial genomes from NCBI
+# Implementation step 1
 
 echo "Running the bash script: bash-tutorial-download-from-NCBI.sh"
 ```
@@ -50,7 +54,7 @@ Exceptions:
 - If the nash is found in quotes, it is not interpreted and it does not mark the start of a comment.
 
 ### Commands
-Our bash script only contains a single `echo` command. All commands will be executed.
+Our bash script contains only a single command, i.e. the `echo` command.
 
 ## Running our first bash script
 In order to be able to run our bash script we have to make it executable, i.e. we have to give it the permission to run independently. We do this with the `chmod`command:
