@@ -66,5 +66,5 @@ In this Chapter you will learn how a tyipical directory structure of Linux opera
 
 # Introduction to bash scripting - Part 1
 
-Bash scripting tutorial: [How to download all mitochondiral genomes of Anopheles species from NCBI]() 
+Bash scripting tutorial: [How to download all mitochondiral genomes of Anopheles species from NCBI](Bash scripting tutorial%2C download from NCBI.md) 
 
