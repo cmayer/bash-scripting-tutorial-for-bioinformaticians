@@ -25,6 +25,8 @@ While flow control statements such as **if** and **for** can also be used in int
 
 # Step by step implementation of a bash script that downloads Anophlels mitochondrial genomes from NCBI
 
+## Step 1, bash script with single echo command
+
 Let us implement our first bash script. Open an editor such as nano, e.g. as follows:
 ```
 nano bash-tutorial-download-from-NCBI.sh
@@ -70,7 +72,7 @@ This should print
 Running the bash script: bash-tutorial-download-from-NCBI.sh
 ``` 
 
-## Variables in bash script
+## Step 2, define variables in bash script
 In all programming languages, variables are used to hold information between multiple commands. In bash, variables have alredy been introduced in the video on the interactive mode. For assinging a value to a bash variable we use the syntax:
 ```
 variable=value
@@ -93,51 +95,24 @@ OUTPUT_DIR="./anopheles_mito_genomes"
 TEMP_DIR="./temp"
 
 # Creating the directories:
-mkdir $OUTPUT_DIR
-mkdir $TEMP_DIR
+mkdir -p $OUTPUT_DIR
+mkdir -p $TEMP_DIR
 ```
 
 Since our bash script already has the permission to be executed, we can run this directly with
 ```
 ./bash-tutorial-download-from-NCBI.sh
 ```
-This command will now create the two directories. 
+This command will now create the two directories. The `-d` option in the `mkdir` command creates directories safely. It creates parent directories if needed and does not exit with an error if the directory exists.
 
 
+## Step 3: Define the Search Term as a variable and download the 
 
+We will query NCBI from the command line. For this we will need a search term. In our case we want to download all avaiable mitochondrial genomes of Anopheles species. The search term will be stored in a variable.
 
-
-### ✅ Create output directories
 ```bash
-
+SEARCH_TERM="Anopheles[Organism] AND mitochondrion[Sequence Location] AND complete genome[Title]"
 ```
-
-### ✅ Create them safely
-```bash
-mkdir -p "$OUTPUT_DIR" "$TEMP_DIR"
-```
-> 💡 **Why `-p`?**
-> `-p` creates parent directories if needed and **doesn’t fail** if the directory already exists.
-
----
-
-
-
-```
-
-
-
-
-First you should make yourself familiar how to use bash commands on the command line. We will recap most commands in this tutorial, but for pedagogical reasons it makes sense if you have seen the commands before.
-
-I recommend to 
-
-A bash script is a plain text file conatining bash commands and comments. The advantage is that your script can perform multipe tasks to get to a result.
-
-
-
-: Downloading Anopheles Mitochondrial Genomes
-
 
 
 ## 🎯 Goal
@@ -164,16 +139,6 @@ Open it in a text editor (e.g., `nano`, `vim`, or VS Code):
 nano download_anopheles_mito.sh
 ```
 
-### ✅ Add the shebang
-```bash
-#!/bin/bash
-```
-> 💡 **What is a shebang?**
-> `#!/bin/bash` tells the system: *"Run this script using the Bash shell."*
-
----
-
-## 📁 Step 2: Define Variables and Directories
 
 
 
