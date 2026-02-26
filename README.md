@@ -2,7 +2,7 @@
 
 This tutorial introduces bioinformatics students and beginners to the Linux command line and teaches them to write simple to moderately complex bash scripts for task automation.
 
-## Why should I learn how to use Linux, the Linux command line and bash scripting?** 
+## Why should I learn how to use Linux, the Linux command line and bash scripting?
 
 Using the Linux command line may initially seem like a step backward in how we interact with computers. However, once we work with large datasets—such as thousands of files, each several megabytes in size, or single files containing several gigabytes of text—it becomes clear that graphical user interface (GUI) programs often fail to handle such data. For example, we wouldn’t open a text file the size of the human genome (3.2 GB) in Microsoft Word, nor would we store it as a .docx file. Similarly, we wouldn’t attempt to open large tabular datasets with millions of rows in Excel or save them as .xlsx files—these programs typically crash or become unresponsive with relatively small files.
 Moreover, high-performance computing (HPC) environments, which are essential for many bioinformatics workflows, run primarily on Unix-like operating systems without GUIs and the vast majority of specialized bioinformatics tools are also designed as command-line programs.
