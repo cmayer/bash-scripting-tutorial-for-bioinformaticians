@@ -1,0 +1,14 @@
+# Motivation
+What bash scripting is all about is to combine multiple commands in a single bash scipt such that a single
+call to this bash script executes all commands.
+
+# Bioinformatics background
+
+Here we will work with a mutliple sequence alignment of mitochondrial genomes of Anopheles species.
+If we are interested only in individual genes within this alignment and want to extract them, a script allows us to extract
+all sequences in one go.
+
+First let us download the sequence file used in Fontaine et al. 2015 ().
+
+
+A good introduction is simple task in which we combine multiple program calls in a single bash script.
